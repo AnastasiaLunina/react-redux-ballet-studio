@@ -1,0 +1,10 @@
+.background-video {
+    position: absolute;
+    object-fit: cover; 
+    width:100vw;
+    height:100vh;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: -1;
+}

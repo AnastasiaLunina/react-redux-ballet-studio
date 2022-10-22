@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Sacramento&display=swap');
+
+.landing-container {
+    margin: 20px;
+    height: 30vh;
+}
+.landing-name {
+    font-family: 'Sacramento', cursive;
+    font-size: 100px;
+    padding: 25px;
+    letter-spacing: 7px;
+}
+
+.landing-heading {
+    font-family: 'Montserrat', cursive;
+    font-size: 20px;
+    padding: 10px 25px;
+    letter-spacing: 7px;
+    width: 50vw;
+}

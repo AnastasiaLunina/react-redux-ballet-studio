@@ -1,0 +1,41 @@
+.landing-page-container {
+    overflow-y: hidden;
+    height: 100vh;
+}
+
+.navigation {
+    height: 100px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 25px;
+    overflow: hidden;
+} 
+.logo-container {
+    height: 100%;
+    width: 70px;
+    padding: 25px;
+}
+  
+.nav-links-container {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+} 
+
+.nav-link {
+    padding: 10px 15px;
+    cursor: pointer;
+    font-family: 'Montserrat', cursive;
+    font-size: 20px;
+    padding: 10px 25px;
+    letter-spacing: 5px;
+    color: black;
+    text-decoration: none;
+}
+
+.nav-link:hover {
+    border: 1px solid black;
+}

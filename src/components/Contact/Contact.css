@@ -1,0 +1,138 @@
+.text_input {
+    background-color: #EEEEEE;
+    padding: 12px 20px;  
+    width: 300px;
+    border-radius: 3px;
+    border: none;
+    resize: none;
+  }
+  
+  .msg_input {
+    height: 100px;
+    outline-color: #000;
+  }
+  
+  .email_input {
+    margin-bottom: 10px;
+    outline-color: #000;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .label_text {
+    font-size: 25px;
+    color: #EEEEEE;
+    width: 300px; 
+    float: right;
+    outline-color: #000;
+  }
+
+  .submit-btn {
+    background-color: #EEEEEE;
+    padding: 10px;
+    border: none;
+    width: 100px;
+    cursor: pointer;
+    text-align: center;
+    color: #000;
+    transition: transform 0.2s cubic-bezier(0.235, 0, 0.05, 0.95);
+  }
+  
+  .submit-btn:hover {
+    transform: perspective(1px) scale3d(1.044, 1.044, 1) translateZ(0) !important;
+  }
+  
+  .submit-btn:active {
+    transform: scale(0.98);
+  }
+
+  ::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: black;
+    opacity: 1; /* Firefox */
+  }
+  
+  :-ms-input-placeholder { /* Internet Explorer 10-11 */
+    color: red;
+  }
+  
+  ::-ms-input-placeholder { /* Microsoft Edge */
+    color: red;
+}
+
+.site-footer {
+  padding:45px 0 20px;
+  font-size:15px;
+  line-height:24px;
+  color:#000;
+  margin-top: 60px;
+}
+
+.site-footer h6 {
+  color:#000;
+  font-size:16px;
+  text-transform:uppercase;
+  margin-top:5px;
+  letter-spacing:2px
+}
+
+.text-justify {
+    width: 50vw;
+    margin-bottom: 20px;
+}
+.row {
+    display: flex;
+    justify-content: space-between;
+}
+.contact-wrapper {
+    display: flex;
+    flex-direction: column;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+.footer-links {
+  padding-left: 0;
+  list-style-type: none;
+}
+.thanks-email-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 50vh;
+}
+.thanks-email {
+  color: red;
+  font-size: 30px;
+}
+
+@media (max-width:991px)
+{
+  .site-footer [class^=col-]
+  {
+    margin-bottom:30px
+  }
+}
+@media (max-width:767px)
+{
+  .site-footer
+  {
+    padding-bottom:0
+  }
+  .site-footer .copyright-text,.site-footer
+  {
+    text-align:center
+  }
+
+  .row {
+    flex-direction: column;
+  }
+
+  .text-justify, .footer-links {
+    width: 90vw;
+    margin-bottom: 20px;
+    padding: 0;
+}
+
+}
