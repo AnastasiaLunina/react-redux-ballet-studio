@@ -1,0 +1,6 @@
+.shop-container {
+    display: flex;
+    justify-content: space-around;
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: 7px;
+}

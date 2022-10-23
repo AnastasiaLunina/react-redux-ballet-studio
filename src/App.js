@@ -5,6 +5,7 @@ import Navbar from './components/Navbar/Navbar';
 import About from './components/About/About';
 import Contact from './components/Contact/Contact';
 import Classes from './components/Classes/Classes';
+import Shop from './components/Shop/Shop/Shop';
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
         <Route path='about' element={<About />} />
         <Route path='contact' element={<Contact />} />
         <Route path='classes' element={<Classes />} />
+        <Route path='shop' element={<Shop />} />
       </Routes>
     </Fragment>
   );
