@@ -1,0 +1,13 @@
+.category-button-selected {
+    text-decoration: underline;
+    text-underline-offset: 10px;
+    font-weight: bold;
+    cursor: pointer;
+    width: 350px;
+    padding-bottom: 10px;
+}
+
+.category-button:hover {
+    font-weight: bold;
+    cursor: pointer;
+}

@@ -4,7 +4,7 @@ import ShopFilter from './ShopFilter';
 import './ShopFilters.css';
 
 const ShopFilters = () => {
-    const filtersArray = ['ballet apparel women', 'ballet apparel girl', 'all'];
+    const filtersArray = ['women', 'girl', 'all'];
     return (
         <div>
             <h2>Need help with apparel?</h2>
