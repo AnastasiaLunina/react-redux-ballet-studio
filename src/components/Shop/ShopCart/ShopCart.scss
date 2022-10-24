@@ -1,0 +1,22 @@
+.cart-image {
+    width: 70px;
+    // position: relative;
+    z-index: 2;
+    cursor: pointer;
+}
+
+.cart-container {
+    position: relative;
+}
+
+.item-count {
+    position: absolute;
+    top: 18px;
+    left: 29px;
+    z-index: 3;
+}
+
+
+.cart-btn {
+    margin-top: 35px;
+}

@@ -8,3 +8,15 @@ export const store = configureStore({
         cart: cart,
     }
 })
+
+
+
+
+
+
+
+
+
+
+
+

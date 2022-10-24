@@ -1,5 +1,7 @@
 import React from 'react';
 
+import './QuantityButton.css';
+
 const QuantityButton = ({ quantity, setQuantity }) => {
 
     const increase = () => {
@@ -16,9 +18,9 @@ const QuantityButton = ({ quantity, setQuantity }) => {
 
     return (
         <div>
-            <button onClick={decrease}>-</button>
-            <span>{ quantity }</span>
-            <button onClick={increase}>+</button>
+            <button onClick={decrease} className='change-quantity-button'>&#9473;</button>
+            <span className='change-quantity-number'>{ quantity }</span>
+            <button onClick={increase} className='change-quantity-button'>&#9547;</button>
         </div>
     );
 };

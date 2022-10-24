@@ -3,7 +3,7 @@ import { createSlice } from '@reduxjs/toolkit';
 export const shopItemsSlice = createSlice({
     name: 'items',
     initialState: {
-        selectedCategory: "women"
+        selectedCategory: "all"
     }, 
     reducers: {
         filterCategory: (state, action) => {

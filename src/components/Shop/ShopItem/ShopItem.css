@@ -1,3 +1,19 @@
 .shop-image {
     width: 500px;
 }
+
+.add-to-cart-button {
+    padding: 10px;
+    cursor: pointer;
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 10px;
+    background-color: #fff;
+    border-radius: 3px;
+    border: 1px solid black;
+    letter-spacing: 3px;
+}
+
+.add-to-cart-button:hover{
+    color:#fff;
+    background-color:#000;
+}

@@ -1,0 +1,12 @@
+.change-quantity-button {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    border: none;
+    background-color: transparent;
+    text-align: center;
+}
+
+.change-quantity-number {
+    font-size: 25px;
+    margin: 0 5px;
+}

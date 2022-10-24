@@ -120,6 +120,10 @@
     font-family: 'Montserrat', cursive;
 }
 
+.email_input {
+  margin-top: 150px;
+}
+
 @media (max-width:991px)
 {
   .site-footer [class^=col-]

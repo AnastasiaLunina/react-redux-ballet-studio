@@ -33,7 +33,7 @@ const Shop = () => {
                 </div>
             </div>
             <div className='shop-container'>
-                <div className="shop-sub-container">
+                <div className="shop-sub-container shop-sub-container-filters">
                     <ShopFilters />
                     <Shopcart />
                 </div>

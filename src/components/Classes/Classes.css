@@ -1,0 +1,9 @@
+.container {
+    display: flex;
+    justify-content: center;
+    font-family: 'Montserrat', sans-serif;
+  }
+
+.classes-description {
+  width: 40%;
+  }

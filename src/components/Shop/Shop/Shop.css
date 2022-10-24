@@ -1,6 +1,16 @@
+.shop-sub-container-filters {
+    /* position: fixed; */
+    left: 45px;
+
+}
+
 .shop-container {
     display: flex;
     justify-content: space-around;
     font-family: 'Montserrat', sans-serif;
     letter-spacing: 7px;
+}
+
+.shop-sub-container {
+    margin-top: 150px;
 }
