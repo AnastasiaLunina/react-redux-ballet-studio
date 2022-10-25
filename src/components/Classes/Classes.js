@@ -63,11 +63,7 @@ const Classes = () => {
             </div>
             <div className="photo-description-container">
                 <div className="container">
-                <img src={image} width="500px"alt="ballet"
-                     data-aos="fade-zoom-in"
-                     data-aos-easing="ease-in-back"
-                     data-aos-delay="200"
-                     data-aos-offset="0"/>
+                <img src={image} width="500px"alt="ballet" />
                 </div>
                 <ul className="description-inner-container container-price">
                     <ul className="container-price">

@@ -3,7 +3,12 @@ import { Link } from 'react-router-dom';
 
 import logo from '../../assets/img/icon.png';
 
+import Carousel from './Carousel';
+import Cards from './Cards';
+
+
 import './About.css';
+import Staff from './Staff';
 
 const About = () => {
     return (
@@ -27,7 +32,9 @@ const About = () => {
                     </Link>
                 </div>
             </div>
-            <h2>This is about page</h2>
+            <Carousel />
+            <Cards/>
+            <Staff />
         </div>
     );
 };

@@ -1,0 +1,102 @@
+.lookbook-img {
+    width: 70vw;
+    height: 70vh;
+    margin-top: 150px;
+    
+}
+
+.container-img {
+    position: relative;
+    justify-content: center;
+    display: flex;
+}
+
+.btn1 {
+    position: absolute;
+    right: 10%;
+    /* top: 150%; */
+    border: none;
+    cursor: pointer;
+    background-color: transparent;
+}
+
+.btn2 {
+    position: absolute;
+    left: 10%;
+    /* top: 150%; */
+    border: none;
+    cursor: pointer;
+    background-color: transparent;
+}
+
+.arrow {
+    height: 80px;
+    color: black;
+}
+
+.text {
+    position: absolute;
+    top: 105%;
+    left: 25%;
+    z-index: 1;
+}
+
+.container-description-container {
+display: flex;
+justify-content: center;
+}
+
+.about-carousel-container {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.about-cards-main-container {
+    display: flex;
+    justify-content: center;
+}
+
+.about-cards-container {
+    display: flex;
+    flex-direction: column;
+    border: 8px solid;
+    border-image: linear-gradient(45deg, gray, #ebedee) 1;
+    padding: 20px;
+    margin: 280px 40px 0px 40px;
+}
+
+.about-image {
+    width: 80px;
+    align-self: center;
+}
+
+.about-staff-main-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+.about-staff-container {
+    display: flex;
+    margin-bottom: 100px;
+}
+
+.about-staff-icon {
+    width: 40px;
+    height: 40px;
+}
+
+.about-staff-image {
+    height: 400px;
+    width: 300px
+}
+
+.about-staff-card-container {
+    display: flex;
+    flex-direction: column;
+    height: 200px;
+    width: 200px;
+    margin-right: 250px;
+}
+

@@ -3,14 +3,14 @@ const shopData = [
         id: 1,
         price: 25,
         img: 'womenpointy',
-        name: 'ballet arm warmer women',
+        name: 'ballet pointy shoes women',
         category: 'women'
     },
     {
         id: 2,
         price: 25,
         img: 'womenarmwarmer',
-        name: 'ballet pointy shoes women',
+        name: 'ballet arm warmer women',
         category: 'women'
     },
     {
