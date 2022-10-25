@@ -2,85 +2,78 @@ const shopData = [
     {
         id: 1,
         price: 25,
-        img: 'https://images.unsplash.com/photo-1555489400-df7b0ded356d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1770&q=80',
-        name: 'ballet apparel women',
+        img: 'womenpointy',
+        name: 'ballet arm warmer women',
         category: 'women'
     },
     {
         id: 2,
         price: 25,
-        img: 'https://images.unsplash.com/photo-1555489400-df7b0ded356d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1770&q=80',
-        name: 'ballet apparel women',
+        img: 'womenarmwarmer',
+        name: 'ballet pointy shoes women',
         category: 'women'
     },
     {
         id: 3,
         price: 25,
-        img: 'https://images.unsplash.com/photo-1555489400-df7b0ded356d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1770&q=80',
-        name: 'ballet apparel women',
+        img: 'womenshoes',
+        name: 'ballet shoes women',
         category: 'women'
     },
     {
         id: 4,
         price: 25,
-        img: 'https://images.unsplash.com/photo-1555489400-df7b0ded356d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1770&q=80',
-        name: 'ballet apparel women',
+        img: 'womentights',
+        name: 'ballet tights women',
         category: 'women'
     },
     {
         id: 5,
         price: 25,
-        img: 'https://images.unsplash.com/photo-1555489400-df7b0ded356d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1770&q=80',
-        name: 'ballet apparel women',
+        img: 'womenoutfit',
+        name: 'ballet outfit women',
         category: 'women'
     },
     {
         id: 6,
         price: 25,
-        img: 'https://images.unsplash.com/photo-1555489400-df7b0ded356d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1770&q=80',
-        name: 'ballet apparel women',
+        img: 'womentop',
+        name: 'ballet top women',
         category: 'women'
     },
     {
         id: 7,
         price: 15,
-        img: 'https://plus.unsplash.com/premium_photo-1664392258415-8e00ceca846d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1057&q=80',
-        name: 'ballet apparel girl',
+        img: 'girlshoes',
+        name: 'ballet shoes girl',
         category: 'girl'
     },
     {
         id: 8,
         price: 15,
-        img: 'https://plus.unsplash.com/premium_photo-1664392258415-8e00ceca846d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1057&q=80',
-        name: 'ballet apparel girl',
+        img: 'girlshoes2',
+        name: 'ballet shoes girl',
         category: 'girl'
     },
     {
         id: 9,
         price: 15,
-        img: 'https://plus.unsplash.com/premium_photo-1664392258415-8e00ceca846d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1057&q=80',
-        name: 'ballet apparel girl',
+        img: 'girlarmwarmer',
+        name: 'ballet arm warmer girl',
         category: 'girl'
     },
     {
         id: 10,
         price: 15,
-        img: 'https://plus.unsplash.com/premium_photo-1664392258415-8e00ceca846d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1057&q=80',
-        name: 'ballet apparel girl',
+        img: 'girltights',
+        name: 'ballet tights girl',
         category: 'girl'
     },
     {
         id: 11,
         price: 15,
-        img: '',
-        name: 'ballet apparel girl',
-        category: 'girl'
-    },
-    {
-        id: 12,
-        price: 15,
-        img: 'https://plus.unsplash.com/premium_photo-1664392258415-8e00ceca846d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1057&q=80',
-        name: 'ballet apparel girl',
+        img: 'leotardgirl',
+        name: 'ballet leotard girl',
         category: 'girl'
     },
 ]

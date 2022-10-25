@@ -1,19 +1,24 @@
 .shop-sub-container-filters {
-    /* position: fixed; */
-    position: sticky;
+    position: fixed;
     left: 45px;
 
 }
 
 .shop-container {
+    position: absolute;
+    right: 300px;
+    top: 55px;
     display: flex;
     justify-content: space-around;
     font-family: 'Montserrat', sans-serif;
     letter-spacing: 7px;
+    height: 85vh;
+    overflow-y: scroll;
 }
 
 .shop-sub-container {
     margin-top: 150px;
-    /* position: sticky; */
-    /* overflow-y: scroll; */
+    height: 80vh;
+    overflow-y: scroll;
 }
+

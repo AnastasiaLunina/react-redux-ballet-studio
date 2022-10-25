@@ -7,6 +7,14 @@ import logo from '../../assets/img/icon.png';
 
 import './Contact.css';
 
+import AOS from 'aos';
+import 'aos/dist/aos.css'; // You can also use <link> for styles
+// ..
+AOS.init({
+    duration: 1200,
+  })
+
+
 const Contact = () => {
     const [state, handleSubmit] = useForm('xpzndrov');
 
@@ -61,7 +69,8 @@ const Contact = () => {
                 </div>
             </div>
             <div className='form-container'>
-          <form onSubmit={handleSubmit} className='form'>
+          <form onSubmit={handleSubmit} 
+                className='form' >
           <input
             id="email"
             type="email" 
@@ -99,7 +108,10 @@ const Contact = () => {
                             style={{ border: "0" }}
                             allowFullScreen="" 
                             loading="lazy" 
-                            referrerPolicy="no-referrer-when-downgrade">
+                            referrerPolicy="no-referrer-when-downgrade"
+                            data-aos="fade-down"
+                            data-aos-easing="linear"
+                            data-aos-duration="1500">
                     </iframe>
                 </p>
             </div>

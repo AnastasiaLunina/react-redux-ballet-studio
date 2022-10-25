@@ -2,10 +2,17 @@ import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 
 import logo from '../../assets/img/icon.png';
-import ballerina from '../../assets/img/ballerina-list.png';
 
 import './Classes.css';
 import data from './data';
+import Particle from '../Particle/Particle';
+
+import AOS from 'aos';
+import 'aos/dist/aos.css'; // You can also use <link> for styles
+// ..
+AOS.init({
+    duration: 1200,
+  })
 
 const Classes = () => {
     const [classes] = useState(data);
@@ -18,6 +25,7 @@ const Classes = () => {
 
     return (
         <div>
+        <div className='classes-main-wrapper'>
             <div className="navigation">
                 <Link className='logo-container' to='/'>
                     <img src={logo} alt="My logo" />
@@ -55,7 +63,11 @@ const Classes = () => {
             </div>
             <div className="photo-description-container">
                 <div className="container">
-                <img src={image} width="500px"alt="gift"/>
+                <img src={image} width="500px"alt="ballet"
+                     data-aos="fade-zoom-in"
+                     data-aos-easing="ease-in-back"
+                     data-aos-delay="200"
+                     data-aos-offset="0"/>
                 </div>
                 <ul className="description-inner-container container-price">
                     <ul className="container-price">
@@ -84,7 +96,9 @@ const Classes = () => {
           </div>
         )
       }))}
-        </div>
+      </div>
+      <Particle />
+    </div>
     );
 };
 

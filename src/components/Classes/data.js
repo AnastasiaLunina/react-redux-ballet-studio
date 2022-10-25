@@ -1,6 +1,3 @@
-import {kids} from '../../assets/img/kids.jpg';
-
-
 const classes = [
     {
       id: 1,
