@@ -76,3 +76,23 @@
 .classes-main-wrapper {
   z-index: 1;
 }
+
+.classes-title {
+  text-align: center;
+}
+
+@media screen and (max-width:650px) {
+  .landing-name {
+      font-size: 75px;
+  }
+
+  .classes-image {
+    width: 200px;
+    height: 150px;
+  }
+}
+
+
+/* @media screen and (min-width:400px) and (max-width:649px) {
+
+} */

@@ -32,13 +32,13 @@ const Classes = () => {
                 </Link>
                 <div className='nav-links-container'>
                     <Link className='nav-link' to='/classes'>
-                        Our classes
+                        Classes
                     </Link>
                     <Link className='nav-link' to='/contact'>
-                        Contact us
+                        Contact
                     </Link>
                     <Link className='nav-link' to='/about'>
-                        About us
+                        About
                     </Link>
                     <Link className='nav-link' to='/shop'>
                         Shop
@@ -63,7 +63,7 @@ const Classes = () => {
             </div>
             <div className="photo-description-container">
                 <div className="container">
-                <img src={image} width="500px"alt="ballet" />
+                <img src={image} width="500px"alt="ballet" className='classes-image'/>
                 </div>
                 <ul className="description-inner-container container-price">
                     <ul className="container-price">

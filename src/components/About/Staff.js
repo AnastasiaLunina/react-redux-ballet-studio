@@ -18,8 +18,8 @@ const Staff = () => {
                 <img src={person1} alt="person" className="about-staff-image" data-aos="fade-left" data-aos-delay="1100"/>
             </div>
 
-            <div className="about-staff-container">
-                <div className="about-staff-card-container">
+            <div className="about-staff-container second">
+                <div className="about-staff-card-container ">
                     <img src={heart} alt="heart" className="about-staff-icon" data-aos="fade-right" data-aos-delay="1200"/>
                     <h2 className="about-staff-title">Alexis Callen</h2>
                     <p className="about-staff-paragraph">Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci doloremque necessitatibus nam. Est, sint assumenda! Quas magnam vitae eaque sint. Modi porro molestiae, quas id debitis quia impedit quos molestias.</p>

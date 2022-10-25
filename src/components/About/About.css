@@ -100,3 +100,48 @@ justify-content: center;
     margin-right: 250px;
 }
 
+@media screen and (max-width:650px) {
+    .lookbook-img {
+        width: 70vw;
+        height: 30vh;
+    }
+
+    .text {
+        top: 50%;
+    }
+
+    .about-cards-main-container {
+        flex-direction: column;
+    }
+
+    .about-cards-container {
+        margin-top: 70px;
+        margin-bottom: 0;
+        width: 80vw;
+    }
+
+    .first {
+        margin-top: 180px;
+    }
+
+    .about-staff-image {
+        height: 300px;
+        width: 220px;
+    }
+
+    .about-staff-card-container {
+        margin-right: 100px;
+    }
+
+    .second {
+        margin-top: 100px;
+    }
+  
+
+  }
+  
+  
+  /* @media screen and (min-width:400px) and (max-width:649px) {
+  
+  } */
+

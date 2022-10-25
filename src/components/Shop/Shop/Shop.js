@@ -18,13 +18,13 @@ const Shop = () => {
                 </Link>
                 <div className='nav-links-container'>
                     <Link className='nav-link' to='/classes'>
-                        Our classes
+                        Classes
                     </Link>
                     <Link className='nav-link' to='/contact'>
-                        Contact us
+                        Contact
                     </Link>
                     <Link className='nav-link' to='/about'>
-                        About us
+                        About
                     </Link>
                     <Link className='nav-link' to='/shop'>
                         Shop

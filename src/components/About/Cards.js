@@ -7,7 +7,7 @@ import hand from '../../assets/img/hand.png'
 const Cards = () => {
     return (
         <div className="about-cards-main-container">
-            <div className="about-cards-container" data-aos="fade-right" data-aos-delay="500">
+            <div className="about-cards-container first" data-aos="fade-right" data-aos-delay="500">
                 <img src={ballerina} alt="ballerina" className="about-image" />
                 <p className="about-paragraph">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci, eaque. Quos eveniet quibusdam officia at ipsa, natus autem magni consequuntur distinctio commodi pariatur inventore nulla exercitationem. Id aliquid cupiditate aliquam.</p>
             </div>

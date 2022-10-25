@@ -7,7 +7,7 @@
 .navigation {
     position: fixed;
     height: 100px;
-    width: 100%;
+    width: 100vw;
     display: flex;
     justify-content: space-between;
     margin-bottom: 25px;
@@ -43,3 +43,14 @@
 .nav-link:hover {
     border: 1px solid black;
 }
+
+@media screen and (max-width:650px) {
+    .nav-link {
+        font-size: 15px;
+    }
+}
+
+
+/* @media screen and (min-width:400px) and (max-width:649px) {
+
+} */

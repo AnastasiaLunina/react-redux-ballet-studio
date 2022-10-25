@@ -22,3 +22,11 @@
     overflow-y: scroll;
 }
 
+@media screen and (max-width:650px) {
+
+}
+
+
+/* @media screen and (min-width:400px) and (max-width:649px) {
+
+} */

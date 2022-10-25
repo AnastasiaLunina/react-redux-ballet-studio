@@ -22,3 +22,14 @@
     position: absolute;
     top: 220px;
 }
+
+@media screen and (max-width:650px) {
+    .landing-name {
+        font-size: 75px;
+    }
+}
+
+
+/* @media screen and (min-width:400px) and (max-width:649px) {
+
+} */
