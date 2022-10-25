@@ -3,6 +3,8 @@
 .landing-container {
     margin: 20px;
     height: 30vh;
+    position: absolute;
+    top: 150px;
 }
 .landing-name {
     font-family: 'Sacramento', cursive;
@@ -17,4 +19,6 @@
     padding: 10px 25px;
     letter-spacing: 7px;
     width: 50vw;
+    position: absolute;
+    top: 220px;
 }

@@ -26,4 +26,8 @@
   margin-top: 25vh;
   font-family: 'Montserrat', cursive;
   letter-spacing: 7px;
+  position: absolute;
+  top: 65vh;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }

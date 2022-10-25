@@ -5,5 +5,70 @@
   }
 
 .classes-description {
-  width: 40%;
-  }
+  width: 50%;
+}
+
+.container-price {
+  display: flex;
+  flex-direction: column;
+  font-family: 'Montserrat', sans-serif;
+  list-style-type: none;
+  /* list-style-image: url("../../assets/img/heart.png"); */
+  font-size: 15px;
+  padding: 5px;
+  margin: 0; 
+  padding: 0;
+}
+
+.container-price li {
+  margin: 8px 0 8px 0; 
+  padding: 0;
+  text-align: left;
+}
+
+.photo-description-container {
+  display: flex;
+  justify-content: center;
+}
+
+.description-inner-container {
+  display: flex;
+  flex-direction: column;
+  margin: 0; 
+  margin-left: 25px;
+  padding: 0;
+  text-align: left;
+}
+
+.photo-description-container {
+  font-family: 'Montserrat', sans-serif;
+}
+.list-image {
+  width: 40px;
+}
+
+.classes-description {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.show-more-button {
+  border: 1px solid black;
+  padding: 5px;
+  background-color: transparent;
+  font-family: 'Montserrat', sans-serif;
+  margin-top: 5px;
+}
+
+.show-more-button:hover {
+  background-color: black;
+  color: #fff;
+}
+
+.classes-span {
+  font-size: 17px;
+  font-weight: bold;
+  text-decoration: underline;
+  text-underline-offset: 5px;
+  margin-right: 20px;
+
+}

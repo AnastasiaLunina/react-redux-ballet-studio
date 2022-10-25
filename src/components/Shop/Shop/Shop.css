@@ -1,5 +1,6 @@
 .shop-sub-container-filters {
     /* position: fixed; */
+    position: sticky;
     left: 45px;
 
 }
@@ -13,4 +14,6 @@
 
 .shop-sub-container {
     margin-top: 150px;
+    /* position: sticky; */
+    /* overflow-y: scroll; */
 }

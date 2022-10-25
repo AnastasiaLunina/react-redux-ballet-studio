@@ -6,7 +6,6 @@ import logo from '../../../assets/img/icon.png';
 import Shopcart from '../ShopCart/Shopcart';
 import ShopFilters from '../ShopFilters/ShopFilters';
 import ShopItems from '../ShopItems/ShopItems';
-import Footer from '../../Footer/Footer';
 
 import './Shop.css';
 
@@ -41,7 +40,6 @@ const Shop = () => {
                     <ShopItems />
                 </div>
             </div>
-            <Footer />
         </div>
     );
 };

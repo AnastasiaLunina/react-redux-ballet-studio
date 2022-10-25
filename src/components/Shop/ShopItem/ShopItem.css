@@ -1,5 +1,5 @@
 .shop-image {
-    width: 500px;
+    width: 300px;
 }
 
 .add-to-cart-button {
@@ -16,4 +16,13 @@
 .add-to-cart-button:hover{
     color:#fff;
     background-color:#000;
+}
+
+.items-in-cart-container {
+    height: 100vh;
+}
+
+.items-in-cart {
+    height: 80vh;
+    overflow-y: auto;
 }

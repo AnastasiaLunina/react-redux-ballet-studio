@@ -9,24 +9,6 @@ const ItemInCart = ({ cartItem }) => {
     const itemsInCart = shopData.find(item => item.id === cartItem.itemId);
     const dispatch = useDispatch();
 
-    const check = () => {
-        if (itemsInCart) {
-            return shopData.map((item) => 
-            item.id === cartItem.itemId ? 
-            {...item, quantity: item.quantity + 1 } : item)
-        }
-       return [...shopData, { ...cartItem, quantity: 1}]
-    }
-
-    const aaa = () => {
-        // check().map(item => {
-            return check()
-        // })
-    }
-
-    console.log(aaa())
-
-
     return (
         <div>
             <p>{itemsInCart.name}</p>

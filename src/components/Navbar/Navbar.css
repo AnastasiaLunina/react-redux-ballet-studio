@@ -1,6 +1,7 @@
 .landing-page-container {
     overflow-y: hidden;
     height: 100vh;
+    position: relative;
 }
 
 .navigation {

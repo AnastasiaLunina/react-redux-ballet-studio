@@ -1,10 +1,19 @@
+import {kids} from '../../assets/img/kids.jpg';
+
+
 const classes = [
     {
       id: 1,
-      title: "Hotel Beacon",
-      description: "This hotel has rooms and suites with kitchenettes and living room seating areas. The Hotel Beacon is on Manhattan’s Upper West Side, 805 m from Central Park. Each room and suite offers free cable on flat-screen TVs, iPod docks and WiFi access. The kitchenettes have a microwave, refrigerator and coffeemaker. Suites at the hotel have a living room with a sofa bed. The quiet and comfortable lobby offers space for visiting or reading and relaxing. There’s a business center for guest use and the hotel offers laundry service and luggage storage. The Hotel Beacon is 322 m from the American Museum of Natural History, and Lincoln Center Plaza is 1.1 km away.",
-      image: "https://t-cf.bstatic.com/xdata/images/hotel/max1024x768/39038995.jpg?k=f7554d11e8bba0b84366408dcac342cae0251daee63689b1c06614d1d81cfc86&o=&hp=1",
-      price: '200 usd',
+      title: "Ballet for little munchkins",
+      description: "This class will give your little dancer a basic introduction to ballet steps and positions, while enhancing their motor skills and coordination with fun exercises in music qualities and rhythms, story-telling with movement, and free dance with various props. Introduce your little dancer to the beautiful art of ballet!",
+      image: "https://images.unsplash.com/photo-1596315458574-d99efaea3b3b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1778&q=80",
+      price: {
+                "oneLesson": 25,
+                "hourly": 200, 
+                "hourAndHalf": 250,
+                "private": 75,
+                "annualy": 1500,
+                },
       classLength: '1 hour',
       days: 'Monday, Friday',
       hours: '5pm - 6pm',
@@ -12,10 +21,16 @@ const classes = [
     },
     {
       id: 2,
-      title: "Lotte New York Palace",
-      description: "All rooms at this Midtown-Manhattan hotel come with a marble bathroom and some rooms offer a view of the Cathedral. A minibar and a desk are also included in the rooms. The property boats a 7000-square-feet fitness centre and spa. The Villard is open for breakfast and weekend brunches. Lotte New York also has an onsite bakery, two lounges and in-room dining options.",
-      image: "https://t-cf.bstatic.com/xdata/images/hotel/max1024x768/51410533.jpg?k=54c069a15e872c81b5dbd3f07066cf318247fb58c1c2d42e35f8dbe6f07479ff&o=&hp=1",
-      price: "Booking.com",
+      title: "Contemporary for teens",
+      description: "Unlike traditional forms of dance, contemporary is considered to be somewhat unbound by much rigidity and rules. The dancers of this genre have the ability to transform a performance based on their own interpretations. This is achieved through honing in on certain techniques, such as focusing on strong ballet-influenced leg movements, fall and recovery, floor work and further improvisational elements. More frequently than not, contemporary dance is performed barefoot to allow for more fluidity in movement and connection to the dance surface.",
+      image: "https://images.unsplash.com/photo-1591162689269-a3fcdab967e3?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2231&q=80",
+      price: {
+        "oneLesson": 25,
+        "hourly": 200, 
+        "hourAndHalf": 250,
+        "private": 75,
+        "annualy": 1500,
+        },
       classLength: '1 hour',
       days: 'Monday, Friday',
       hours: '5pm - 6pm',
@@ -23,10 +38,16 @@ const classes = [
     },
     {
       id: 3,
-      title: "InterContinental New York Barclay Hotel, an IHG Hotel",
-      description: " New York Barclay InterContinental includes an iPod docking station and cable TV with a DVD player. A minibar and coffee facilities are also provided. The rooms are decorated in gold tones. InterContinental Barclay New York offers concierge services and a gym. Luxury shops and restaurants along Fifth Ave are just a 5-minute walk from the InterContinental New York Barclay. Central Park is a 20-minute walk from the hotel and Rockefeller Center is a 10-minute walk away.",
-      image: "https://t-cf.bstatic.com/xdata/images/hotel/max1024x768/261355520.jpg?k=92f96913d29ac4bb951d07641456f2668b2dc7bbd5a4ae007baa97f5f379757a&o=&hp=1",
-      price: "Booking.com",
+      title: "Barre yoga for adults",
+      description: "Barre classes combine low-impact exercises like stretching or upper arm circles with faster-paced physical activity such as jumping squats to create a variety of aerobic conditioning sessions which has been shown over time are more effective at improving core strength than traditional sit-ups can offer alone.  Barres provides coordination training by requiring participants to keep both eyes open while simultaneously moving their heads from side to face forward back around again then switching sides before repeating.",
+      image: "https://images.unsplash.com/photo-1603988363607-e1e4a66962c6?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1770&q=80",
+      price: {
+        "oneLesson": 25,
+        "hourly": 200, 
+        "hourAndHalf": 250,
+        "private": 75,
+        "annualy": 1500,
+        },
       classLength: '1 hour',
       days: 'Monday, Friday',
       hours: '5pm - 6pm',

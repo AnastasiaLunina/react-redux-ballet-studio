@@ -3,8 +3,6 @@ import { Link } from 'react-router-dom';
 
 import logo from '../../assets/img/icon.png';
 
-import Footer from '../Footer/Footer';
-
 import './About.css';
 
 const About = () => {
@@ -30,7 +28,6 @@ const About = () => {
                 </div>
             </div>
             <h2>This is about page</h2>
-            <Footer />
         </div>
     );
 };

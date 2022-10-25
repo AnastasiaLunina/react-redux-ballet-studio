@@ -5,8 +5,6 @@ import { useForm, ValidationError } from '@formspree/react';
 
 import logo from '../../assets/img/icon.png';
 
-import Footer from '../Footer/Footer';
-
 import './Contact.css';
 
 const Contact = () => {
@@ -120,7 +118,6 @@ const Contact = () => {
             </div>
         </div>
         </footer>
-            <Footer />
         </div>
     );
 };
