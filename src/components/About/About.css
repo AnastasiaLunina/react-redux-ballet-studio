@@ -100,7 +100,7 @@ justify-content: center;
     margin-right: 250px;
 }
 
-@media screen and (max-width:650px) {
+@media screen and (max-width:760px) and (min-width:577px)  {
     .lookbook-img {
         width: 70vw;
         height: 30vh;
@@ -136,12 +136,31 @@ justify-content: center;
     .second {
         margin-top: 100px;
     }
-  
-
   }
   
+  @media screen and (max-width:576px) {
+    .lookbook-img {
+        width: 400px;
+        height: 350px;
+    }
+    .text {
+        top: 55%;
+    }
+    .about-cards-main-container {
+        flex-direction: column;
+    }
+    .about-cards-container {
+        margin-top: 150px;
+    }
+    .about-staff-container {
+        flex-direction: column;
+    }
+    .about-staff-card-container {
+        margin-right: 0px;
+    }
+    .about-staff-image {
+        margin-top: 150px;
+    }
   
-  /* @media screen and (min-width:400px) and (max-width:649px) {
-  
-  } */
+  }
 

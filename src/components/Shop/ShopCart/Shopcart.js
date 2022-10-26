@@ -7,7 +7,7 @@ import ItemInCart from '../ItemInCart/ItemInCart';
 
 import shoppingBag from '../../../assets/img/shopping-bag.png';
 
-import './ShopCart.scss';
+import './ShopCart.css';
 
 const Shopcart = () => {
     const cartItems = useSelector(getCartItems);

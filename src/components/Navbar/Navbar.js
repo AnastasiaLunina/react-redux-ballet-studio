@@ -1,17 +1,14 @@
 // import { Fragment } from 'react';
-import { Outlet, Link } from 'react-router-dom';
-import Videobackground from '../VideoBackground/Videobackground';
+import { Link } from 'react-router-dom';
 
 import logo from '../../assets/img/icon.png';
 
 import './Navbar.css';
-import LandingHeading from '../LandingHeading/LandingHeading';
-import Footer from '../Footer/Footer';
 
 const Navbar = () => {
 
     return (
-        <div className='landing-page-container'>
+        // <div className='landing-page-container'>
             <div className='navigation'>
                 <Link className='logo-container' to='/'>
                 <img src={logo} alt="My logo" />
@@ -31,11 +28,8 @@ const Navbar = () => {
                     </Link>
                 </div>
             </div>
-            <Outlet />
-            <Videobackground/>
-            <LandingHeading />
-            <Footer />
-        </div>
+   
+        // </div>
     )
 }
 

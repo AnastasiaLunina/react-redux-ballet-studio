@@ -1,11 +1,10 @@
 import React, { useState } from 'react';
-import { Link } from 'react-router-dom';
-
-import logo from '../../assets/img/icon.png';
 
 import './Classes.css';
 import data from './data';
 import Particle from '../Particle/Particle';
+
+import Navbar from '../Navbar/Navbar';
 
 import AOS from 'aos';
 import 'aos/dist/aos.css'; // You can also use <link> for styles
@@ -26,25 +25,7 @@ const Classes = () => {
     return (
         <div>
         <div className='classes-main-wrapper'>
-            <div className="navigation">
-                <Link className='logo-container' to='/'>
-                    <img src={logo} alt="My logo" />
-                </Link>
-                <div className='nav-links-container'>
-                    <Link className='nav-link' to='/classes'>
-                        Classes
-                    </Link>
-                    <Link className='nav-link' to='/contact'>
-                        Contact
-                    </Link>
-                    <Link className='nav-link' to='/about'>
-                        About
-                    </Link>
-                    <Link className='nav-link' to='/shop'>
-                        Shop
-                    </Link>
-                </div>
-            </div>
+            <Navbar/>
             <div className="container classes-title">
                 <h2 className="classes-title" style={{ marginTop: 150 }}>We have classes for everyone. Currently {classes.length} classes avaliable</h2>
             </div>
@@ -76,15 +57,12 @@ const Classes = () => {
                         </ul>
                     </ul>
                     <li className=""><span className="classes-span">Class length:</span> 
-                        {/* <img src={ballerina} alt="ballarina" className="list-image" /> */}
                          {classLength}
                     </li>
                     <li className=""><span className="classes-span">Days: </span> 
-                        {/* <img src={ballerina} alt="ballarina" className="list-image" /> */}
                         {days}
                     </li>
                     <li className=""><span className="classes-span">Schedule:</span> 
-                        {/* <img src={ballerina} alt="ballarina" className="list-image" /> */}
                          {hours}
                     </li>
                 </ul>

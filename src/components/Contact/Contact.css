@@ -153,3 +153,10 @@
 }
 
 }
+@media screen and (max-width:576px) {
+  .text_input {
+    width: 80vw;
+    margin-right: 10px;
+    margin-left: 10px
+  }
+}

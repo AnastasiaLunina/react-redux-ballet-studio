@@ -1,11 +1,10 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
 
 import { useForm, ValidationError } from '@formspree/react';
 
-import logo from '../../assets/img/icon.png';
-
 import './Contact.css';
+
+import Navbar from '../Navbar/Navbar';
 
 import AOS from 'aos';
 import 'aos/dist/aos.css'; // You can also use <link> for styles
@@ -21,25 +20,7 @@ const Contact = () => {
     if (state.succeeded) {
         return (
           <div>
-                <div className="navigation">
-                    <Link className='logo-container' to='/'>
-                        <img src={logo} alt="My logo" />
-                    </Link>
-                    <div className='nav-links-container'>
-                        <Link className='nav-link' to='/classes'>
-                            Our classes
-                        </Link>
-                        <Link className='nav-link' to='/contact'>
-                            Contact us
-                        </Link>
-                        <Link className='nav-link' to='/about'>
-                            About us
-                        </Link>
-                        <Link className='nav-link' to='/shop'>
-                            Shop
-                        </Link>
-                    </div>
-                </div>
+                <Navbar/>
             <div className='thanks-email-container'>
               <p className='thanks-email'>Thanks for joining!</p>
             </div>
@@ -49,25 +30,7 @@ const Contact = () => {
 
     return (
         <div>
-            <div className="navigation">
-                <Link className='logo-container' to='/'>
-                    <img src={logo} alt="My logo" />
-                </Link>
-                <div className='nav-links-container'>
-                    <Link className='nav-link' to='/classes'>
-                        Classes
-                    </Link>
-                    <Link className='nav-link' to='/contact'>
-                        Contact
-                    </Link>
-                    <Link className='nav-link' to='/about'>
-                        About
-                    </Link>
-                    <Link className='nav-link' to='/shop'>
-                        Shop
-                    </Link>
-                </div>
-            </div>
+            <Navbar/>
             <div className='form-container'>
           <form onSubmit={handleSubmit} 
                 className='form' >

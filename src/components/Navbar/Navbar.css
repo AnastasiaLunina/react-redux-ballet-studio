@@ -44,13 +44,21 @@
     border: 1px solid black;
 }
 
-@media screen and (max-width:650px) {
+@media screen and (max-width:760px) and (min-width:577px) {
     .nav-link {
         font-size: 15px;
     }
 }
 
 
-/* @media screen and (min-width:400px) and (max-width:649px) {
-
-} */
+@media screen and (max-width:576px) {
+    .nav-links-container {
+        flex-wrap: wrap;
+    }
+    .nav-link {
+        font-size: 15px;
+    }
+    .navigation {
+        height: 200px;
+    }
+}

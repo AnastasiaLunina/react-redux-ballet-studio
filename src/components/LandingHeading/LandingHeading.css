@@ -23,13 +23,23 @@
     top: 220px;
 }
 
-@media screen and (max-width:650px) {
+@media screen and (max-width:760px) and (min-width:577px) {
     .landing-name {
-        font-size: 75px;
+        font-size: 68px;
     }
+    .landing-heading {
+        padding-top: 50px;
+        font-size: 18px;
+    }
+
 }
 
-
-/* @media screen and (min-width:400px) and (max-width:649px) {
-
-} */
+@media screen and (max-width:576px) {
+    .landing-name {
+        font-size: 60px;
+    }
+    .landing-heading {
+        font-size: 15px;
+        margin-top: 20px;
+    }
+}

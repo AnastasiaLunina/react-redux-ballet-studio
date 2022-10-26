@@ -81,10 +81,10 @@
   text-align: center;
 }
 
-@media screen and (max-width:650px) {
-  .landing-name {
+@media screen and (max-width:760px) and (min-width:577px)  {
+  /* .landing-name {
       font-size: 75px;
-  }
+  } */
 
   .classes-image {
     width: 200px;
@@ -92,7 +92,18 @@
   }
 }
 
+@media screen and (max-width:576px) {
+  .photo-description-container {
+    flex-direction: column;
+    align-items: center;
+  }
 
-/* @media screen and (min-width:400px) and (max-width:649px) {
+  .classes-image {
+    width: 400px;
+  }
 
-} */
+  .nav-links-container {
+    margin-bottom: 40px;
+  }
+
+}
