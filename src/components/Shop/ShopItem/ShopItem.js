@@ -49,7 +49,6 @@ const ShopItem = ({ shopItem }) => {
                 // () => check()
                 // () => addToCart()
                 () => dispatch(addItemToCart({shopItem, quantity}))
-                // !itemsInCart ? () => dispatch(addItemToCart({shopItem, quantity})) : () => dispatch(updateQuantity({shopItem, quantity}))
             }>Add to cart</button>
         </div>
     );
