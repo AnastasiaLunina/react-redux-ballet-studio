@@ -50,7 +50,6 @@
     }
 }
 
-
 @media screen and (max-width:576px) {
     .nav-links-container {
         flex-wrap: wrap;
@@ -59,6 +58,6 @@
         font-size: 15px;
     }
     .navigation {
-        height: 200px;
+        margin-bottom: 50px;
     }
 }
