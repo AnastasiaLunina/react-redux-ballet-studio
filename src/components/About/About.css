@@ -144,10 +144,11 @@ justify-content: center;
         height: 350px;
     }
     .text {
-        top: 69%;
+        top: 72%;
     }
     .about-cards-main-container {
         flex-direction: column;
+        margin-top: 20px;
     }
     .about-cards-container {
         margin-top: 150px;

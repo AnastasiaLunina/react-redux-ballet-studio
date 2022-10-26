@@ -12,13 +12,14 @@
     font-family: 'Montserrat', sans-serif;
     letter-spacing: 7px;
     height: 85vh;
-    overflow-y: scroll;
+    /* overflow-y: scroll; */
 }
 
 .shop-sub-container {
     margin-top: 150px;
     height: 80vh;
     overflow-y: scroll;
+    overflow-x: hidden;
 }
 
 @media screen and (max-width:760px) and (min-width:400px)  {
