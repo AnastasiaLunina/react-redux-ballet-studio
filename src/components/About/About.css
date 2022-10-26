@@ -144,7 +144,7 @@ justify-content: center;
         height: 350px;
     }
     .text {
-        top: 55%;
+        top: 69%;
     }
     .about-cards-main-container {
         flex-direction: column;
@@ -160,6 +160,9 @@ justify-content: center;
     }
     .about-staff-image {
         margin-top: 150px;
+    }
+    .arrow {
+        width: 50px;
     }
   
   }

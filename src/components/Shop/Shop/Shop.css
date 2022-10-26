@@ -1,11 +1,10 @@
 .shop-sub-container-filters {
-    position: fixed;
+    /* position: fixed; */
     left: 45px;
-
 }
 
 .shop-container {
-    position: absolute;
+    /* position: absolute; */
     right: 300px;
     top: 55px;
     display: flex;
@@ -22,11 +21,39 @@
     overflow-y: scroll;
 }
 
-@media screen and (max-width:760px) {
+@media screen and (max-width:760px) and (min-width:400px)  {
+    .shop-container {
+        display: flex;
+    }
 
+  .shop-sub-container-filters {
+    position: relative;
+    width: 40vw;
+    margin-left: 20px;
+    margin-right: 20px;
 }
 
+.shop-sub-container-items {
+    position: relative;
+    width: 40vw;
+}
 
-/* @media screen and (min-width:400px) and (max-width:649px) {
+.shop-image {
+    width: 130px;
+}
 
-} */
+.shop-title {
+    font-size: 15px;
+}
+
+.cart-items {
+    width: 100px;
+    /* margin-right: 130px; */
+    margin-left: 0;
+    font-size: 12px;
+}
+
+.item-total {
+    font-size: 13px;
+}
+}

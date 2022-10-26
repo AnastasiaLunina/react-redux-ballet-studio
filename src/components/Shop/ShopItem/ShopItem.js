@@ -39,9 +39,9 @@ const ShopItem = ({ shopItem }) => {
     // }
 
     return (
-        <div >
-            <h2 >{name}</h2>
-            <h2>{price} USD</h2>
+        <div className='shop-items-wrapper'>
+            <h2 className='shop-title'>{name}</h2>
+            <h2 className='shop-title'>{price} USD</h2>
             <img src={`./${img}.webp`} alt={name} className='shop-image' />
             <QuantityButton quantity={quantity} setQuantity={setQuantity}/>
            
@@ -49,6 +49,7 @@ const ShopItem = ({ shopItem }) => {
                 // () => check()
                 // () => addToCart()
                 () => dispatch(addItemToCart({shopItem, quantity}))
+                // !itemsInCart ? () => dispatch(addItemToCart({shopItem, quantity})) : () => dispatch(updateQuantity({shopItem, quantity}))
             }>Add to cart</button>
         </div>
     );

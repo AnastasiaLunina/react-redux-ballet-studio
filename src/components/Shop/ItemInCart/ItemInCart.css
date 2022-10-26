@@ -4,3 +4,7 @@
     font-weight: bold;
     cursor: pointer;
 }
+
+.hide {
+    display: none;
+}

@@ -11,11 +11,16 @@
 .item-count {
     position: absolute;
     top: 18px;
-    left: 29px;
+    left: 35px;
     z-index: 3;
 }
 
 
 .cart-btn {
     margin-top: 35px;
+}
+
+.cart-button {
+    border: none;
+    background-color: transparent;
 }

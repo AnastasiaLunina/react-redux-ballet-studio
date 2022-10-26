@@ -16,7 +16,7 @@ const Shop = () => {
                     <ShopFilters />
                     <Shopcart />
                 </div>
-                <div className="shop-sub-container">
+                <div className="shop-sub-container  shop-sub-container-items">
                     <ShopItems />
                 </div>
             </div>

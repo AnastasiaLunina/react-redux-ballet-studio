@@ -36,10 +36,13 @@
 
 @media screen and (max-width:576px) {
     .landing-name {
-        font-size: 60px;
+        font-size: 40px;
+        padding-bottom: 5px;
+        padding-top: 5px;
+        margin-bottom: 10px;
     }
     .landing-heading {
-        font-size: 15px;
-        margin-top: 20px;
+        font-size: 13px;
+        /* margin-top: 15px; */
     }
 }

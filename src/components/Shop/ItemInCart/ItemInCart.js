@@ -9,8 +9,10 @@ const ItemInCart = ({ cartItem }) => {
     const itemsInCart = shopData.find(item => item.id === cartItem.itemId);
     const dispatch = useDispatch();
 
+    
+
     return (
-        <div>
+        <div className='items-in-cart-wrapper'>
             <p>{itemsInCart.name}</p>
             <p>quantity: {cartItem.quantity}</p>
             <p>${itemsInCart.price * cartItem.quantity}</p>
