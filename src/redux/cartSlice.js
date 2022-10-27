@@ -21,7 +21,7 @@ export const cartSlice = createSlice({
             const newCart = [];
             
             state.cartItems.forEach(item => {
-                if (item.id === action.payload.shopItem.id) {
+                if (item.itemId === action.payload.shopItem.id) {
                     let newQuantity = item.quantity + action.payload.quantity;
                     let totalSum = item.price * newQuantity;
                     const changeCart = {...item, quantity: newQuantity, totalPrice: totalSum };

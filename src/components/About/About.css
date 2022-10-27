@@ -110,6 +110,12 @@ justify-content: center;
         top: 50%;
     }
 
+    .about-quote {
+        font-size: 15px;
+        width: 300px;
+        margin-top: 70px;
+    }
+
     .about-cards-main-container {
         flex-direction: column;
     }
@@ -164,6 +170,10 @@ justify-content: center;
     }
     .arrow {
         width: 50px;
+    }
+    .about-quote {
+        font-size: 15px;
+        width: 250px;
     }
   
   }

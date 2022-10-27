@@ -35,10 +35,10 @@ const Carousel = () => {
     return (
         <div className='about-carousel-container'>
             <div className="container-description-container">
-                <h2 className="text">{description}</h2>
+                <h2 className="text about-quote">{description}</h2>
             </div>
             <div className="container-img">
-                <img className='lookbook-img' src={image} alt="person"/>
+                <img className='lookbook-img' src={image} alt="ballet"/>
             </div>
 
             <div className="container-btn">

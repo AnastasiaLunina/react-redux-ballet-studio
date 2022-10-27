@@ -5,6 +5,7 @@
     background-color: transparent;
     text-align: center;
     color: black;
+    cursor: pointer;
 }
 
 .change-quantity-number {

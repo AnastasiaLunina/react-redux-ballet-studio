@@ -13,7 +13,7 @@ const Staff = () => {
                 <div className="about-staff-card-container">
                     <img src={heart} alt="heart" className="about-staff-icon" data-aos="fade-right" data-aos-delay="1100"/>
                     <h2 className="about-staff-title">Nina Callen</h2>
-                    <p className="about-staff-paragraph">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Temporibus, eum! Maiores sit expedita in deserunt aliquam dolore earum rem laboriosam repudiandae dolores unde perferendis voluptate, eveniet reiciendis esse facilis! Eum?</p>
+                    <p className="about-staff-paragraph">From early on, Nina's active imagination and love of fantasy drew her to the world of ballet. Looking back on her childhood, Nina described her passion for ballet accordingly: "I always wanted to dance; from my youngest years...Thus I built castles in the air out of my hopes and dreams</p>
                 </div>
                 <img src={person1} alt="person" className="about-staff-image" data-aos="fade-left" data-aos-delay="1100"/>
             </div>
@@ -21,8 +21,8 @@ const Staff = () => {
             <div className="about-staff-container second">
                 <div className="about-staff-card-container ">
                     <img src={heart} alt="heart" className="about-staff-icon" data-aos="fade-right" data-aos-delay="1200"/>
-                    <h2 className="about-staff-title">Alexis Callen</h2>
-                    <p className="about-staff-paragraph">Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci doloremque necessitatibus nam. Est, sint assumenda! Quas magnam vitae eaque sint. Modi porro molestiae, quas id debitis quia impedit quos molestias.</p>
+                    <h2 className="about-staff-title">Mira Callen</h2>
+                    <p className="about-staff-paragraph">Mira was a prima ballerina. After attending the Ballet School, she made her company debut in 2000 and quickly became a prima ballerina. Her breakthrough performance was in The Swan Lake in 2007, which became her signature role. She joined the Ballet Studio in 2011.</p>
                 </div>
                 <img src={person2} alt="person" className="about-staff-image" data-aos="fade-left" data-aos-delay="1200"/>
             </div>
