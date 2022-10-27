@@ -30,6 +30,7 @@
     .landing-heading {
         padding-top: 50px;
         font-size: 18px;
+        top: 130px;
     }
 
 }
@@ -43,7 +44,8 @@
     }
     .landing-heading {
         font-size: 13px;
-        width: 100%
+        width: 100%;
+        top: 130px;
         /* margin-top: 15px; */
     }
     .landing-page-container {

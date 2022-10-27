@@ -25,6 +25,9 @@ const Footer = () => {
             <a href="https://github.com/AnastasiaLunina" target='_blank'><img src={github} alt="github" className="newsletter-sign-github" width='30px' height='30px'></img></a>
             <a href="https://www.linkedin.com/in/anastasia-lunina/" target='_blank'><img src={linkedin} alt="linkedin" className="newsletter-sign-linkedin" width='30px' height='30px'></img></a>
           </div>
+          <div class="attribution">
+            <p>Materials were taken from open source resources for educational purposes: www.freepik.com, www.unslpash.com, www.pexels.com</p>
+          </div>
         </div>
     );
 };

@@ -1,5 +1,5 @@
 .landing-page-container {
-    overflow-y: hidden;
+    overflow: hidden;
     height: 100vh;
     position: relative;
 }
