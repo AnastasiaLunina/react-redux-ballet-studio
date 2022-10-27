@@ -43,6 +43,10 @@
     }
     .landing-heading {
         font-size: 13px;
+        width: 100%
         /* margin-top: 15px; */
+    }
+    .landing-page-container {
+        overflow-x: hidden;
     }
 }
