@@ -29,6 +29,8 @@
 .photo-description-container {
   display: flex;
   justify-content: center;
+  font-family: 'Montserrat', sans-serif;
+  margin-bottom: 30px;
 }
 
 .description-inner-container {
@@ -40,9 +42,6 @@
   text-align: left;
 }
 
-.photo-description-container {
-  font-family: 'Montserrat', sans-serif;
-}
 .list-image {
   width: 40px;
 }
@@ -58,6 +57,7 @@
   font-family: 'Montserrat', sans-serif;
   margin-top: 5px;
   color: black;
+  cursor: pointer;
 }
 
 .show-more-button:hover {

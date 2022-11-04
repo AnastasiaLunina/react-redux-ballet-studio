@@ -12,11 +12,11 @@ const Shop = () => {
         <div>
             <Navbar/>
             <div className='shop-container'>
-                <div className="shop-sub-container shop-sub-container-filters">
+                <div className="shop-sub-container shop-sub-container-filters custom-scroll">
                     <ShopFilters />
                     <Shopcart />
                 </div>
-                <div className="shop-sub-container  shop-sub-container-items">
+                <div className="shop-sub-container  shop-sub-container-items custom-scroll">
                     <ShopItems />
                 </div>
             </div>

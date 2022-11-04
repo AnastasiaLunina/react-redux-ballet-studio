@@ -39,7 +39,8 @@ const Contact = () => {
             type="email" 
             name="email"
             placeholder='Your e-mail'
-            className='text_input email_input'/>
+            className='text_input email_input'
+            required/>
           <ValidationError 
             prefix="Email" 
             field="email"
@@ -48,7 +49,8 @@ const Contact = () => {
             id="message"
             name="message"
             placeholder='Your message'
-            className='text_input msg_input'/>
+            className='text_input msg_input'
+            required/>
           <ValidationError 
             prefix="Message" 
             field="message"
