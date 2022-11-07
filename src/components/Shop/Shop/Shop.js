@@ -9,7 +9,7 @@ import './Shop.css';
 
 const Shop = () => {
     return (
-        <div>
+        <div className='main-shop-container'>
             <Navbar/>
             <div className='shop-container'>
                 <div className="shop-sub-container shop-sub-container-filters custom-scroll">

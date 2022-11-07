@@ -11,7 +11,7 @@
     justify-content: space-around;
     font-family: 'Montserrat', sans-serif;
     letter-spacing: 7px;
-    height: 85vh;
+    height: 7   5vh;
     /* overflow-y: scroll; */
 }
 
@@ -43,6 +43,14 @@
     border-radius: 10px;
     box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
     background-color: rgba(0, 0, 0, 0.8);
+  }
+
+  .main-shop-container {
+    overflow: hidden;
+  }
+
+  .shop-sub-container-items {
+    width: 35%;
   }
 
 @media screen and (max-width:760px) and (min-width:400px)  {
